@@ -413,7 +413,7 @@ footer {
 
     header {
         grid-template-columns: 1fr; /* Empilhar em vez de 2 colunas */
-        padding: 8rem 1rem 1rem;
+        padding: 1rem 1rem 1rem;
     }
 
     .hero-text {
