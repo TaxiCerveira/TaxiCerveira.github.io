@@ -1,13 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>TaxiCerveira</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <link href="./assets/css/style.css" rel="stylesheet">
-  
-  <!-- SCRIPTS-->
+    <!-- General MetaInfo -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="TaxiCerveira oferece táxis 24h no Alto Minho com motoristas experientes. Transfers, visitas turísticas e serviços empresariais confiáveis." />
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="TaxiCerveira - Táxis 24h no Alto Minho" />
+    <meta property="og:description" content="TaxiCerveira oferece táxis 24h no Alto Minho com motoristas experientes. Transfers, visitas turísticas e serviços empresariais confiáveis." />
+    <meta property="og:url" content="https://www.taxicerveira.pt" />
+    <meta property="og:image" content="https://www.taxicerveira.pt/Logos/logoCores.webp" />
+    <meta property="og:image:alt" content="Logo TaxiCerveira" />
+    <meta property="og:locale" content="pt_PT" />
+    <meta property="og:site_name" content="TaxiCerveira" />
+    
+    <title>TaxiCerveira</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link rel="canonical" href="https://www.taxicerveira.pt" />
+    
+    <!-- Structure Data -->
+     <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "TaxiService",
+        "name": "TaxiCerveira",
+        "url": "https://www.taxicerveira.pt",
+        "logo": "https://www.taxicerveira.pt/Logos/logoCores.webp",
+        "image": "https://www.taxicerveira.pt/Cars/CarroSClass.webp",
+        "description": "TaxiCerveira oferece táxis 24h no Alto Minho com motoristas experientes. Transfers, visitas turísticas e serviços empresariais confiáveis.",
+        "telephone": "+351910779407",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Vila Nova de Cerveira",
+            "addressRegion": "Alto Minho",
+            "addressCountry": "PT"
+        },
+        "areaServed": {
+            "@type": "Place",
+            "name": "Alto Minho"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Serviços",
+            "itemListElement": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                "@type": "Service",
+                "name": "Táxi Local"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                "@type": "Service",
+                "name": "Transfers (Aeroporto, Hotel)"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                "@type": "Service",
+                "name": "Visitas Turísticas"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                "@type": "Service",
+                "name": "Serviço Empresarial"
+                }
+            }
+            ]
+        }
+    }
+    </script>
+    <!-- SCRIPTS -->
     <script defer src="https://www.google.com/recaptcha/api.js?render=6LfyW24rAAAAAKvUmrXl5ZvVpZYC7U4BN2tIpM2g"></script>
 </head>
 <body>
