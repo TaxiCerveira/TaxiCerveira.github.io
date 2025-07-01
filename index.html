@@ -71,6 +71,7 @@
 
     .logo img {
         height: 70px; 
+        width: 70px; 
         vertical-align: middle; 
     }
 
@@ -361,7 +362,8 @@
     }
 
     .pagamentos-grid img {
-        height: 50px;
+        height: 70px;
+        width: 70px;
         object-fit: contain;
         filter: grayscale(0.3);
         transition: transform 0.2s ease;
@@ -491,62 +493,12 @@
 
   </style>
   <!-- SCRIPTS-->
-  <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "TaxiService",
-        "name": "TaxiCerveira",
-        "image": "https://taxicerveira.pt/car_nobg.png",
-        "url": "https://taxicerveira.pt",
-        "telephone": "+351910779407",
-        "priceRange": "€€",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Centro de Vila Nova de Cerveira",
-            "addressLocality": "Vila Nova de Cerveira",
-            "postalCode": "4920",
-            "addressCountry": "PT"
-        },
-        "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 41.9411,
-            "longitude": -8.7446
-        },
-        "areaServed": [
-            "Vila Nova de Cerveira",
-            "Moledo",
-            "Valença",
-            "Serra da Arga",
-            "Rio Minho",
-            "Vigo",
-            "Porto",
-            "Viana do Castelo"
-        ],
-        "openingHoursSpecification": {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-                "Monday",
-                "Tuesday",
-                "Wednesday",
-                "Thursday",
-                "Friday",
-                "Saturday",
-                "Sunday"
-            ],
-            "opens": "00:00",
-            "closes": "23:59"
-        },
-        "paymentAccepted": "Cash, Credit Card, MBWay, Apple Pay, Google Pay",
-        "description": "Serviço de táxi profissional 24h em Vila Nova de Cerveira e região. Transfers, viagens curtas, passeios turísticos e mais."
-    }
-    </script>
-    <script  type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script  src="https://www.google.com/recaptcha/api.js?render=6LfyW24rAAAAAKvUmrXl5ZvVpZYC7U4BN2tIpM2g"></script>
+    <script defer src="https://www.google.com/recaptcha/api.js?render=6LfyW24rAAAAAKvUmrXl5ZvVpZYC7U4BN2tIpM2g"></script>
 </head>
 <body>
     <nav id="navbar">
         <div class="logo">
-        <img id="logo-img" src="./Logos/logoPreto.webp" width=auto height=auto alt="Logo TaxiCerveira">
+        <img id="logo-img" src="./Logos/logoPreto.webp" width="1182" height="1182" alt="Logo TaxiCerveira">
             TaxiCerveira
         </div>
 
@@ -572,7 +524,7 @@
                 </div>
             </div>
             <div class="hero-image" id="headerContent-right">
-                <img src="./Logos/logoCores.webp" width=auto height=auto alt="Logo TaxiCerveira" />
+                <img src="./Logos/logoCores.webp" width="1182" height="1182" alt="Logo TaxiCerveira" />
 
             </div>
         </header>
@@ -590,19 +542,19 @@
         <h2>SERVIÇOS PRESTADOS</h2>
         <div class="services">
             <div class="service">
-            <img src="./Servicos/taxi.webp" width=auto height=auto alt="Táxi Local" class="service-img">
+            <img src="./Servicos/taxi.webp" width="512" height="512" alt="Táxi Local" class="service-img">
             <p>Táxi Local</p>
             </div>
             <div class="service">
-            <img src="./Servicos/airport.webp" width=auto height=auto alt="Transfers" class="service-img">
+            <img src="./Servicos/airport.webp" width="512" height="512" alt="Transfers" class="service-img">
             <p>Transfers (Aeroporto, Hotel)</p>
             </div>
             <div class="service">
-            <img src="./Servicos/globe.webp" width=auto height=auto" alt="Visitas Turísticas" class="service-img">
+            <img src="./Servicos/globe.webp" width="512" height="512" alt="Visitas Turísticas" class="service-img">
             <p>Visitas Turísticas</p>
             </div>
             <div class="service">
-            <img src="./Servicos/building.webp" width=auto height=auto alt="Serviço Empresarial" class="service-img">
+            <img src="./Servicos/building.webp" width="512" height="512" alt="Serviço Empresarial" class="service-img">
             <p>Serviço Empresarial</p>
             </div>
         </div>
@@ -623,7 +575,7 @@
         <div class="cartao-taxi">
             <!-- Táxi 1 -->
             <div class="coluna-taxi">
-                <img src="./Cars/CarroSClass.webp" width=auto height=auto alt="Imagem de táxi para até 4 pessoas disponível em Cerveira e arredores" class="imagem-taxi" />
+                <img src="./Cars/CarroSClass.webp" width="664" height="374" alt="Imagem de táxi para até 4 pessoas disponível em Cerveira e arredores" class="imagem-taxi" />
                 <h3 class="titulo-taxi">Até 4 Pessoas</h3>
                 <p class="coluna-taxi-descrip">
                     Os preços apresentados já incluem IVA. De acordo com o seu pedido, escolheremos o veículo que melhor se adapte às suas necessidades. Valor desde:
@@ -633,7 +585,7 @@
 
             <!-- Táxi 2 -->
             <div class="coluna-taxi">
-                <img src="./Cars/CarrinhaVClass.webp" width=auto height=auto alt="Imagem de táxi para até 4 pessoas disponível em Cerveira e arredores" class="imagem-taxi" />
+                <img src="./Cars/CarrinhaVClass.webp" width="512" height="384" alt="Imagem de táxi para até 4 pessoas disponível em Cerveira e arredores" class="imagem-taxi" />
                 <h3 class="titulo-taxi">Mais de 4 Pessoas</h3>
                 <p class="coluna-taxi-descrip">
                     *Os preços apresentados já incluem IVA. De acordo com o seu pedido, escolheremos o veículo que melhor se adapte às suas necessidades. Valor desde:
@@ -647,18 +599,18 @@
         <h2>MÉTODOS DE PAGAMENTO</h2>
         <div>
             <div class="pagamentos-grid">
-            <img src="/MetodosPagamento/americanExpress.webp" width=auto height=auto alt="Aceitamos American Express" />
-            <img src="/MetodosPagamento/applePay.webp" width=auto height=auto alt="Aceitamos Apple Pay" />
-            <img src="/MetodosPagamento/Contactless.webp" width=auto height=auto alt="Aceitamos Pagamento Contactless" />
-            <img src="/MetodosPagamento/googlePay.webp" width=auto height=auto alt="Aceitamos Google Pay" />
-            <img src="/MetodosPagamento/jcb.webp" width=auto height=auto alt="Aceitamos JCB" />
-            <img src="/MetodosPagamento/maestro.webp" width=auto height=auto alt="Aceitamos Maestro" />
-            <img src="/MetodosPagamento/masterCard.webp" width=auto height=auto alt="Aceitamos MasterCard" />
-            <img src="/MetodosPagamento/mbway.webp" width=auto height=auto alt="Aceitamos MB Way" />
-            <img src="/MetodosPagamento/samsungPay.webp" width=auto height=auto alt="Aceitamos Samsung Pay" />
-            <img src="/MetodosPagamento/unionPay.webp" width=auto height=auto alt="Aceitamos UnionPay" />
-            <img src="/MetodosPagamento/visa.webp" width=auto height=auto alt="Aceitamos Visa" />
-            <img src="/MetodosPagamento/vpay.webp" width=auto height=auto alt="Aceitamos VPay" />
+            <img src="/MetodosPagamento/americanExpress.webp" width="2000" height="1996" alt="Aceitamos American Express" />
+            <img src="/MetodosPagamento/applePay.webp" width="2000" height="937" alt="Aceitamos Apple Pay" />
+            <img src="/MetodosPagamento/Contactless.webp" width="1578" height="2000" alt="Aceitamos Pagamento Contactless" />
+            <img src="/MetodosPagamento/googlePay.webp" width="2000" height="793" alt="Aceitamos Google Pay" />
+            <img src="/MetodosPagamento/jcb.webp" width="2000" height="1539" alt="Aceitamos JCB" />
+            <img src="/MetodosPagamento/maestro.webp" width="2000" height="1206" alt="Aceitamos Maestro" />
+            <img src="/MetodosPagamento/masterCard.webp" width="2000" height="1197" alt="Aceitamos MasterCard" />
+            <img src="/MetodosPagamento/mbway.webp" width="2000" height="972" alt="Aceitamos MB Way" />
+            <img src="/MetodosPagamento/samsungPay.webp" width="2000" height="1999" alt="Aceitamos Samsung Pay" />
+            <img src="/MetodosPagamento/unionPay.webp" width="2000" height="1278" alt="Aceitamos UnionPay" />
+            <img src="/MetodosPagamento/visa.webp" width="2000" height="650" alt="Aceitamos Visa" />
+            <img src="/MetodosPagamento/vpay.webp" width="1828" height="2000" alt="Aceitamos VPay" />
             </div>
         </div>
         <div class="palavras-chave-seo">
@@ -689,6 +641,7 @@
 </body>
 </html>
 
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script>
     const nav = document.getElementById('navbar');
     const LheaderContent = document.getElementById('headerContent-left');
