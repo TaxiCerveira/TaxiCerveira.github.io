@@ -270,7 +270,6 @@ h2 {
 }
 
 .sobre { 
-    max-width: 800px; 
     margin: 0 auto; 
     text-align: center; 
     font-size: 1.1rem; 
@@ -450,13 +449,6 @@ footer {
 
     .hero-image {
         margin-top: 2rem;
-    }
-
-    section > div,
-    section > form,
-    section > p.sobre {
-        max-width: 95%;
-        padding: 1.5rem;
     }
 
     .services,
