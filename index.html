@@ -4,34 +4,49 @@
     <!-- General MetaInfo -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="description" content="Táxi Cerveira oferece táxis 24h no Alto Minho com motoristas experientes. Transfers, visitas turísticas e serviços empresariais confiáveis." />
+    <meta name="description" content="Táxi Cerveira oferece táxis 24h no Alto Minho com motoristas experientes. Faça já sua reserva para transfers, visitas turísticas ou serviços empresariais." />
     
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Táxi Cerveira - Táxis 24h no Alto Minho" />
-    <meta property="og:description" content="Táxi Cerveira oferece táxis 24h no Alto Minho com motoristas experientes. Transfers, visitas turísticas e serviços empresariais confiáveis." />
+    <meta property="og:description" content="Táxi Cerveira oferece táxis 24h no Alto Minho com motoristas experientes. Faça já sua reserva para transfers, visitas turísticas ou serviços empresariais." />
     <meta property="og:url" content="https://www.taxicerveira.pt" />
     <meta property="og:image" content="https://www.taxicerveira.pt/Logos/logoCores.webp" />
     <meta property="og:image:alt" content="Logo Táxi Cerveira" />
     <meta property="og:locale" content="pt_PT" />
     <meta property="og:site_name" content="Táxi Cerveira" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:title" content="Táxi Cerveira" />
     
-    <title>Táxi Cerveira</title>
+    <title>Táxi Cerveira | Táxi Cerveira oferece táxis 24h no Alto Minho com motoristas experientes. Transfers, visitas turísticas e serviços empresariais confiáveis. | taxi - taxis | </title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
     <link rel="canonical" href="https://www.taxicerveira.pt" />
     <link rel="icon" type="image/x-icon" href="/Logos/favicon.ico">
     
     <!-- Structure Data -->
-     <script type="application/ld+json">
+    <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "TaxiService",
+        "@type": [
+            {
+                "@context": "https://schema.org",
+                "@type": "WebSite",
+                "name": "Táxi Cerveira",
+                "url": "https://www.taxicerveira.pt"
+            },
+            {
+                "@context": "https://schema.org",
+                "@type": "TaxiService",
+                "name": "Táxi Cerveira",
+                ...
+            }
+        ],
         "name": "Táxi Cerveira",
         "url": "https://www.taxicerveira.pt",
         "logo": "https://www.taxicerveira.pt/Logos/logoCores.webp",
         "image": "https://www.taxicerveira.pt/Cars/CarroSClass.webp",
-        "description": "Táxi Cerveira oferece táxis 24h no Alto Minho com motoristas experientes. Transfers, visitas turísticas e serviços empresariais confiáveis.",
+        "description": "Táxi Cerveira oferece táxis 24h no Alto Minho com motoristas experientes. Faça já sua reserva para transfers, visitas turísticas ou serviços empresariais.",
         "telephone": "+351910779407",
         "address": {
             "@type": "PostalAddress",
@@ -139,19 +154,19 @@
         <h2>SERVIÇOS PRESTADOS</h2>
         <div class="services">
             <div class="service">
-            <img src="./Servicos/taxi.webp" width="512" height="512" alt="Táxi Local" class="service-img">
+            <img src="./Servicos/taxi.webp" width="512" height="512" alt="Táxi Local" loading="lazy" class="service-img">
             <p>Táxi Local</p>
             </div>
             <div class="service">
-            <img src="./Servicos/airport.webp" width="512" height="512" alt="Transfers" class="service-img">
+            <img src="./Servicos/airport.webp" width="512" height="512" alt="Transfers" loading="lazy" class="service-img">
             <p>Transfers (Aeroporto, Hotel)</p>
             </div>
             <div class="service">
-            <img src="./Servicos/globe.webp" width="512" height="512" alt="Visitas Turísticas" class="service-img">
+            <img src="./Servicos/globe.webp" width="512" height="512" alt="Visitas Turísticas" loading="lazy" class="service-img">
             <p>Visitas Turísticas</p>
             </div>
             <div class="service">
-            <img src="./Servicos/building.webp" width="512" height="512" alt="Serviço Empresarial" class="service-img">
+            <img src="./Servicos/building.webp" width="512" height="512" alt="Serviço Empresarial" loading="lazy" class="service-img">
             <p>Serviço Empresarial</p>
             </div>
         </div>
@@ -196,22 +211,39 @@
         <h2>MÉTODOS DE PAGAMENTO</h2>
         <div>
             <div class="pagamentos-grid">
-            <img src="/MetodosPagamento/americanExpress.webp" width="512" height="511" alt="Aceitamos American Express" />
-            <img src="/MetodosPagamento/applePay.webp" width="512" height="240" alt="Aceitamos Apple Pay" />
-            <img src="/MetodosPagamento/Contactless.webp" width="512" height="649" alt="Aceitamos Pagamento Contactless" />
-            <img src="/MetodosPagamento/googlePay.webp" width="512" height="203" alt="Aceitamos Google Pay" />
-            <img src="/MetodosPagamento/jcb.webp" width="512" height="394" alt="Aceitamos JCB" />
-            <img src="/MetodosPagamento/maestro.webp" width="512" height="309" alt="Aceitamos Maestro" />
-            <img src="/MetodosPagamento/masterCard.webp" width="512" height="306" alt="Aceitamos MasterCard" />
-            <img src="/MetodosPagamento/mbway.webp" width="512" height="249" alt="Aceitamos MB Way" />
-            <img src="/MetodosPagamento/samsungPay.webp" width="512" height="512" alt="Aceitamos Samsung Pay" />
-            <img src="/MetodosPagamento/unionPay.webp" width="512" height="327" alt="Aceitamos UnionPay" />
-            <img src="/MetodosPagamento/visa.webp" width="512" height="166" alt="Aceitamos Visa" />
-            <img src="/MetodosPagamento/vpay.webp" width="512" height="560" alt="Aceitamos VPay" />
+            <img src="/MetodosPagamento/americanExpress.webp" width="512" height="511" alt="Aceitamos American Express" loading="lazy"/>
+            <img src="/MetodosPagamento/applePay.webp" width="512" height="240" alt="Aceitamos Apple Pay" loading="lazy"/>
+            <img src="/MetodosPagamento/Contactless.webp" width="512" height="649" alt="Aceitamos Pagamento Contactless" loading="lazy"/>
+            <img src="/MetodosPagamento/googlePay.webp" width="512" height="203" alt="Aceitamos Google Pay" loading="lazy"/>
+            <img src="/MetodosPagamento/jcb.webp" width="512" height="394" alt="Aceitamos JCB" loading="lazy"/>
+            <img src="/MetodosPagamento/maestro.webp" width="512" height="309" alt="Aceitamos Maestro" loading="lazy"/>
+            <img src="/MetodosPagamento/masterCard.webp" width="512" height="306" alt="Aceitamos MasterCard" loading="lazy"/>
+            <img src="/MetodosPagamento/mbway.webp" width="512" height="249" alt="Aceitamos MB Way" loading="lazy"/>
+            <img src="/MetodosPagamento/samsungPay.webp" width="512" height="512" alt="Aceitamos Samsung Pay" loading="lazy"/>
+            <img src="/MetodosPagamento/unionPay.webp" width="512" height="327" alt="Aceitamos UnionPay" loading="lazy"/>
+            <img src="/MetodosPagamento/visa.webp" width="512" height="166" alt="Aceitamos Visa" loading="lazy"/>
+            <img src="/MetodosPagamento/vpay.webp" width="512" height="560" alt="Aceitamos VPay" loading="lazy"/>
             </div>
         </div>
         <div class="palavras-chave-seo">
-            Táxi Cerveira, Táxis Cerveira, Taxis Cerveira, Viagem Cerveira, Viajar em Cerveira, Táxis Inatel, Vila Nova de Cerveira, Parque do Castelinho, Cerveira Vigo, Porto Cerveira, Porto Vigo, Viagem para o aeroporto
+            <h2>Táxi Cerveira</h2>
+            <h2>Táxis Cerveira</h2>
+            <h2>Taxis Cerveira</h2>
+            <h2>Taxi Cerveira</h2>
+            <h2>taxis</h2>
+            <h2>taxi</h2>
+            <h2>Viagem Cerveira</h2>
+            <h2>Viajar em Cerveira</h2>
+            <h2>Táxis Inatel</h2>
+            <h2>Vila Nova de Cerveira</h2>
+            <h2>Parque do Castelinho</h2>
+            <h2>Cerveira</h2>
+            <h2>Cerveira Vigo</h2>
+            <h2>Porto Cerveira</h2>
+            <h2>Porto Vigo</h2>
+            <h2>Viagem para o aeroporto</h2>
+            <h2>Cervo</h2>
+            <h2>monte do cervo</h2>
         </div>
     </section>
 
