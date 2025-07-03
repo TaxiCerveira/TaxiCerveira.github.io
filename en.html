@@ -1,67 +1,355 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>404 - Working on english version | TaxiCerveira</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <link href="./assets/css/style.css" rel="stylesheet">
-  <style>
-    body {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      height: 100vh;
-      background-color: #f9f9f9;
-      font-family: 'Poppins', sans-serif;
-      margin: 0;
-    }
+    <!-- General MetaInfo -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Taxi Cerveira offers 24-hour taxi service in Alto Minho with experienced drivers. Book now for transfers, sightseeing tours, or business services." />
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Taxi Cerveira – 24-Hour Taxis in Alto Minho" />
+    <meta property="og:description" content="Taxi Cerveira offers 24-hour taxi service in Alto Minho with experienced drivers. Book now for transfers, sightseeing tours, or business services." />
+    <meta property="og:url" content="https://www.taxicerveira.pt/en" />
+    <meta property="og:image" content="https://www.taxicerveira.pt/Logos/logoCores.webp" />
+    <meta property="og:image:alt" content="Taxi Cerveira Logo" />
+    <meta property="og:locale" content="pt_PT" />
+    <meta property="og:site_name" content="Taxi Cerveira" />
 
-    .error-logo {
-      margin-bottom: 1rem;
+    <!-- X/twitter part --->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Taxi Cerveira – 24-Hour Taxis in Alto Minho" />
+    <meta name="twitter:description" content="Taxi Cerveira offers 24-hour taxi service in Alto Minho with experienced drivers. Book now for transfers, sightseeing tours, or business services." />
+    <meta name="twitter:image" content="https://www.taxicerveira.pt/Logos/logoCores.webp" />
+    <meta name="twitter:image:alt" content="Taxi Cerveira Logo" />
+    <meta name="twitter:site" content="" />
+    <meta name="twitter:creator" content="" />
+    
+    <title>Taxi Cerveira – Taxis Available 24 Hours in Alto Minho.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link rel="canonical" href="https://www.taxicerveira.pt" />
+    <link rel="icon" type="image/x-icon" href="/Logos/favicon.ico">
+    
+    <!-- Structure Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "TaxiService",
+        "name": "Táxi Cerveira",
+        "url": "https://www.taxicerveira.pt",
+        "logo": "https://www.taxicerveira.pt/Logos/logoCores.webp",
+        "image": "https://www.taxicerveira.pt/Cars/CarroSClass.webp",
+        "description": "Taxi Cerveira offers 24-hour taxi service in Alto Minho with experienced drivers. Book now for transfers, sightseeing tours, or business services.",
+        "telephone": "+351910779407",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Vila Nova de Cerveira",
+            "addressRegion": "Alto Minho",
+            "addressCountry": "PT"
+        },
+        "areaServed": {
+            "@type": "Place",
+            "name": "Alto Minho"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Services",
+            "itemListElement": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                "@type": "Service",
+                "name": "Local Taxi"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                "@type": "Service",
+                "name": "Transfers (Airport, Hotel)"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                "@type": "Service",
+                "name": "Sightseeing Tours"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                "@type": "Service",
+                "name": "Business Service"
+                }
+            }
+            ]
+        }
     }
-
-    h1 {
-      font-size: 3rem;
-      margin: 0.5rem 0;
-      color: #222;
-    }
-
-    p {
-      font-size: 1.2rem;
-      color: #555;
-      margin-bottom: 2rem;
-    }
-
-    a.back-home {
-      background-color: #000;
-      color: #fff;
-      padding: 0.75rem 1.5rem;
-      text-decoration: none;
-      border-radius: 8px;
-      transition: background-color 0.3s;
-    }
-
-    a.back-home:hover {
-      background-color: #444;
-    }
-
-    @media (max-width: 600px) {
-      h1 {
-        font-size: 2.2rem;
-      }
-
-      p {
-        font-size: 1rem;
-      }
-    }
-  </style>
+    </script>
+    <!-- SCRIPTS -->
+    <script defer src="https://www.google.com/recaptcha/api.js?render=6LfyW24rAAAAAKvUmrXl5ZvVpZYC7U4BN2tIpM2g"></script>
 </head>
 <body>
-  <img src="./Logos/logoCores.webp" alt="Logo TaxiCerveira" class="error-logo" width="512" height="512" />
-  <h1>500 - Working on english version</h1>
-  <a href="/" class="back-home">⬅️ Back to initial page</a>
+    <nav id="navbar">
+        <div class="logo">
+        <img id="logo-img" src="./Logos/logoPreto.webp" width="1182" height="1182" alt="Taxi Cerveira Logo">
+            Taxi Cerveira
+        </div>
+
+        <div class="nav-right">
+            <div class="nav-links">
+                <a href="#sobre">About</a>
+                <a href="#servicos">Services</a>
+                <a href="#tarifas">Rates</a>
+                <!-- <a href="#testemunhos">Reviews</a> -->
+                <a href="#contacto">Contact</a>
+            </div>
+
+            <div class="language-switcher">
+                <a href="/" lang="pt" hreflang="pt" title="Portuguese" style="text-decoration:none; padding:0 0.3rem;">
+                    <img src="Languages/PT.png" alt="Portuguese" class="flag-icon" />
+                </a>
+                <a href="/en" lang="en" hreflang="en" title="English" class="active" style="text-decoration:none; padding:0 0.3rem;">
+                    <img src="Languages/EN.png" alt="English" class="flag-icon" />
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="headerWrapper">    
+        <header class="teste">
+            <div class="hero-text" id="headerContent-left">
+                <h1>Taxi Cerveira - Travel with peace of mind and arrive with comfort!</h1>
+                <div class="text-button-line">
+                    <p>Taxis available 24h throughout the Minho region. Call or send a message and reach your destination worry-free!</p>
+                    <div class="button-group">
+                        <a href="https://wa.me/351910779407?text=Ol%C3%A1%2C%20precisava%20de%20um%20t%C3%A1xi%2C%20por%20favor." class="header-btn" target="_blank" rel="noopener noreferrer">📲 WhatsApp</a>
+                        <a href="tel:+351910779407" class="header-btn">📞 910779407</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image" id="headerContent-right">
+                <img src="./Logos/logoCores.webp" width="1182" height="1182" alt="Taxi Cerveira Logo" />
+            </div>
+        </header>
+    </div>
+
+    <section id="sobre">
+        <h2>ABOUT US</h2>
+        <div class="sobre">
+            <p>
+                <strong>Taxi Cerveira</strong> is a recent company, but it counts with experienced drivers who know Alto Minho well.
+            </p>
+            <p>
+                Our drivers have many years of practice. They guarantee a professional, safe, and efficient service.
+            </p>
+            <p>
+                Our goal is simple: to offer comfort and punctuality on every trip.
+            </p>
+            <p>
+                We are available 24 hours a day, 7 days a week. We respond quickly and adapt to your needs.
+            </p>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <h2>SERVICES PROVIDED</h2>
+        <div class="services">
+            <div class="service">
+            <img src="./Servicos/taxi.webp" width="512" height="512" alt="Local Taxi" loading="lazy" class="service-img">
+            <p>Local Taxi</p>
+            </div>
+            <div class="service">
+            <img src="./Servicos/airport.webp" width="512" height="512" alt="Transfers" loading="lazy" class="service-img">
+            <p>Transfers (Airport, Hotel)</p>
+            </div>
+            <div class="service">
+            <img src="./Servicos/globe.webp" width="512" height="512" alt="Sightseeing Tours" loading="lazy" class="service-img">
+            <p>Sightseeing Tours</p>
+            </div>
+            <div class="service">
+            <img src="./Servicos/building.webp" width="512" height="512" alt="Business Service" loading="lazy" class="service-img">
+            <p>Business Service</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testemunhos">
+        <h2>REVIEWS</h2>
+        <div class="testemunhos">
+            <a href="https://www.google.com/search?q=Táxi%20Cerveira%20Críticas&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxIxNDA0NTQ2MjE3NjA2MTMzMzUwM9vAyPiKUSLk8MKKTAXn1KKy1MyiRAXnosNrSzKTE4sXseKUAgD_kwqqUQAAAA&rldimm=10151324730346665066&tbm=lcl&cs=1&hl=pt-PT&authuser=2&sa=X&ved=0CBsQ9fQKKABqFwoTCLDF5NqioY4DFQAAAAAdAAAAABAG&biw=1879&bih=924&dpr=1#lkt=LocalPoiReviews" target="_blank" class="testemunho" style="text-decoration: none; color: inherit;">
+                <p>“Careful driver, impeccable car! I recommend it.”<br>
+                    <strong>- Hugo Antunes5</strong><br>
+                    <span style="color:var(--verde); font-size: 2rem;">★★★★★</span>
+                </p>
+            </a>
+            <a href="https://www.google.com/search?q=Táxi%20Cerveira%20Críticas&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxIxNDA0NTQ2MjE3NjA2MTMzMzUwM9vAyPiKUSLk8MKKTAXn1KKy1MyiRAXnosNrSzKTE4sXseKUAgD_kwqqUQAAAA&rldimm=10151324730346665066&tbm=lcl&cs=1&hl=pt-PT&authuser=2&sa=X&ved=0CBsQ9fQKKABqFwoTCLDF5NqioY4DFQAAAAAdAAAAABAG&biw=1879&bih=924&dpr=1#lkt=LocalPoiReviews" target="_blank" class="testemunho" style="text-decoration: none; color: inherit;">
+                <p>“Great service, I recommend it!!”<br>
+                    <strong>- Diogo Bouçós</strong><br>
+                    <span style="color:var(--verde); font-size: 2rem;">★★★★★</span>
+                </p>
+            </a>
+            <a href="https://www.google.com/search?q=Táxi%20Cerveira%20Críticas&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxIxNDA0NTQ2MjE3NjA2MTMzMzUwM9vAyPiKUSLk8MKKTAXn1KKy1MyiRAXnosNrSzKTE4sXseKUAgD_kwqqUQAAAA&rldimm=10151324730346665066&tbm=lcl&cs=1&hl=pt-PT&authuser=2&sa=X&ved=0CBsQ9fQKKABqFwoTCLDF5NqioY4DFQAAAAAdAAAAABAG&biw=1879&bih=924&dpr=1#lkt=LocalPoiReviews" target="_blank" class="testemunho" style="text-decoration: none; color: inherit;">
+                <p>“I recommend it, the taxi is very good and the driving is excellent.”<br>
+                    <strong>- Márcia Pratas</strong><br>
+                    <span style="color:var(--verde); font-size: 2rem;">★★★★★</span>
+                </p>
+            </a>
+        </div>
+    </section>
+
+    <section id="tarifas">
+        <h2>OUR RATES</h2>
+        <div class="cartao-taxi">
+            <!-- Taxi 1 -->
+            <div class="coluna-taxi">
+                <img src="./Cars/CarroSClass.webp" width="664" height="374" alt="Taxi image for up to 4 people available in Cerveira and surroundings" class="imagem-taxi" />
+                <h3 class="titulo-taxi">Up to 4 People</h3>
+                <p class="coluna-taxi-descrip">
+                    Prices shown include VAT. According to your request, we will choose the vehicle that best suits your needs. *Price from:
+                </p>
+                <p class="preco-km"><strong>€0.67/km*</strong></p>
+                <!-- <a href="/tarifas/CarroS">Details</a> -->
+            </div>
+
+            <!-- Taxi 2 -->
+            <div class="coluna-taxi">
+                <img src="./Cars/CarrinhaVClass.webp" width="512" height="384" alt="Taxi image for more than 4 people available in Cerveira and surroundings" class="imagem-taxi" />
+                <h3 class="titulo-taxi">More than 4 People</h3>
+                <p class="coluna-taxi-descrip">
+                    Prices shown include VAT. According to your request, we will choose the vehicle that best suits your needs. *Price from:
+                </p> 
+                <p class="preco-km"><strong>€0.80/km*</strong></p> 
+                <!-- <a href="/tarifas/CarrinhaV">Details</a> -->
+            </div>
+        </div>
+    </section>
+
+    <section id="pagamento">
+        <h2>PAYMENT METHODS</h2>
+        <div>
+            <div class="pagamentos-grid">
+                <img src="/MetodosPagamento/americanExpress.webp" width="512" height="511" alt="We accept American Express" loading="lazy"/>
+                <img src="/MetodosPagamento/applePay.webp" width="512" height="240" alt="We accept Apple Pay" loading="lazy"/>
+                <img src="/MetodosPagamento/Contactless.webp" width="512" height="649" alt="We accept Pagamento Contactless" loading="lazy"/>
+                <img src="/MetodosPagamento/googlePay.webp" width="512" height="203" alt="We accept Google Pay" loading="lazy"/>
+                <img src="/MetodosPagamento/jcb.webp" width="512" height="394" alt="We accept JCB" loading="lazy"/>
+                <img src="/MetodosPagamento/maestro.webp" width="512" height="309" alt="We accept Maestro" loading="lazy"/>
+                <img src="/MetodosPagamento/masterCard.webp" width="512" height="306" alt="We accept MasterCard" loading="lazy"/>
+                <img src="/MetodosPagamento/mbway.webp" width="512" height="249" alt="We accept MB Way" loading="lazy"/>
+                <img src="/MetodosPagamento/samsungPay.webp" width="512" height="512" alt="We accept Samsung Pay" loading="lazy"/>
+                <img src="/MetodosPagamento/unionPay.webp" width="512" height="327" alt="We accept UnionPay" loading="lazy"/>
+                <img src="/MetodosPagamento/visa.webp" width="512" height="166" alt="We accept Visa" loading="lazy"/>
+                <img src="/MetodosPagamento/vpay.webp" width="512" height="560" alt="We accept VPay" loading="lazy"/>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>CONTACT</h2>
+        <form id="contact-form" onsubmit="sendEmail(event)">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Your name" required />
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Your email" required />
+
+            <input type="hidden" name="recaptcha_token" id="recaptcha-token" />
+
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Your message" required></textarea>
+
+            <!-- Google reCAPTCHA -->
+            <button class="header-btn" type="submit">Send</button>
+        </form>
+
+        
+        <p style="text-align:center; margin-top:1rem;">📞 +351 910 779 407 | ✉️ geral@taxicerveira.pt</p>
+    </section>
+
+    <footer>
+        &copy; 2025 Taxi Cerveira. All rights reserved. <br />
+        <small>Home | Company | Contact | Privacy policy</small>
+    </footer>
 </body>
 </html>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+    const nav = document.getElementById('navbar');
+    const LheaderContent = document.getElementById('headerContent-left');
+    const RheaderContent = document.getElementById('headerContent-right');
+    const sections = document.querySelectorAll('section');
+    const logo = document.getElementById('logo-img');
+    const header = document.querySelector("header");
+
+    // Initialize EmailJS
+    (function () {
+        emailjs.init("5W8RHkDQIoA7-sfDv"); // Use token from EmailJS
+    })();
+
+    window.addEventListener('scroll', () => {
+        const scrollY = window.scrollY;
+        
+        if (window.scrollY > 50) {
+            navbar.classList.add('scrolled');
+            logo.src = 'Logos/logoBranco.webp';
+        } else {
+            navbar.classList.remove('scrolled');
+            logo.src = 'Logos/logoPreto.webp';
+        }
+
+        // Encolher na largura horizontalmente com scroll
+        // Scroll progress para shrink (0 até 1)
+        const shrinkScroll = Math.min(scrollY / 500, 1); // máximo 1
+
+        // Cálculo da largura entre 100% e 80%
+        const newScale = 1 - (shrinkScroll * 0.2); // scale from 1 to 0.60
+        headerWrapper.style.transform = `scaleX(${newScale})`;
+
+
+        // Parallax no conteúdo
+        LheaderContent.style.transform = `translateY(${scrollY * 0.3}px) scale(${1 - scrollY / 2000})`;
+        RheaderContent.style.transform = `translateY(${scrollY * 0.3}px) scale(${1 - scrollY / 2000})`;
+        LheaderContent.style.opacity = `${1 - scrollY / 350}`;
+        RheaderContent.style.opacity = `${1 - scrollY / 350}`;
+
+        // Fade-in sections
+        sections.forEach(sec => {
+            const top = sec.getBoundingClientRect().top;
+            if (top < window.innerHeight - 250) {
+                sec.classList.add('visible');
+            }
+        });
+    });
+
+    function sendEmail(event) {
+        event.preventDefault();
+
+        // Executa o reCAPTCHA v3
+        grecaptcha.ready(function () {
+            grecaptcha.execute("6LfyW24rAAAAAKvUmrXl5ZvVpZYC7U4BN2tIpM2g", { action: "submit" })
+            .then(function (token) {
+                if (!token) {
+                    alert("Falha no reCAPTCHA. Tente novamente.");
+                    return;
+                }
+
+                document.getElementById("recaptcha-token").value = token;
+
+                // Envia com EmailJS
+                emailjs.sendForm('service_hwl5tpo', 'template_auov6d5', event.target)
+                .then(() => {
+                    alert("Mensagem enviada com sucesso!");
+                    event.target.reset();
+                })
+                .catch((error) => {
+                    console.error("Erro ao enviar:", error);
+                    alert("Erro ao enviar. Tente novamente mais tarde.");
+                });
+            });
+        });
+    }
+</script>   
