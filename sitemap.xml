@@ -17,28 +17,10 @@
 
     <!-- Seções internas -->
     <url>
-		<loc>https://www.taxicerveira.pt/#sobre</loc>
+		<loc>https://www.taxicerveira.pt/tarifas</loc>
 		<lastmod>2025-07-03</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.80</priority>
-    </url>
-    <url>
-		<loc>https://www.taxicerveira.pt/#servicos</loc>
-		<lastmod>2025-07-03</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.80</priority>
-    </url>
-    <url>
-		<loc>https://www.taxicerveira.pt/#tarifas</loc>
-		<lastmod>2025-07-03</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.80</priority>
-    </url>
-    <url>
-		<loc>https://www.taxicerveira.pt/#contacto</loc>
-		<lastmod>2025-07-03</lastmod>
-		<changefreq>yearly</changefreq>
-		<priority>0.64</priority>
     </url>
 
     <!-- Tags de alternância de idioma (caso crie versões multilíngues, como pt/en/es) -->
