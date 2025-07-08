@@ -10,18 +10,28 @@
   	<!-- Página principal -->
     <url>
 		<loc>https://www.taxicerveira.pt/</loc>
-		<lastmod>2025-07-03</lastmod>
+		<lastmod>2025-07-08</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>1.00</priority>
     </url>
 
-    <!-- Seções internas -->
+    <!-- Página ingles -->
     <url>
-		<loc>https://www.taxicerveira.pt/tarifas</loc>
-		<lastmod>2025-07-03</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.80</priority>
+		<loc>https://www.taxicerveira.pt/en</loc>
+		<lastmod>2025-07-08</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>1.00</priority>
     </url>
+
+    <!-- Seções internas
+        <url>
+      <loc>https://www.taxicerveira.pt/tarifas</loc>
+      <lastmod>2025-07-03</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.80</priority>
+      </url>
+    -->
+
 
     <!-- Tags de alternância de idioma (caso crie versões multilíngues, como pt/en/es) -->
     <!--
