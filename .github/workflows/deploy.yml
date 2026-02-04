@@ -22,7 +22,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'pnpm' # Changed from 'npm' to 'pnpm' so it caches dependencies faster
 
       # 3. Install dependencies using pnpm
       - name: Install dependencies
