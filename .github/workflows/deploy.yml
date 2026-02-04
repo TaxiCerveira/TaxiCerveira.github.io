@@ -26,7 +26,9 @@ jobs:
 
       # 3. Install dependencies using pnpm
       - name: Install dependencies
-        run: pnpm install --no-frozen-lockfile
+        run: |
+          rm -f pnpm-lock.yaml
+          pnpm install
 
       # 4. Build the site
       - name: build
