@@ -26,14 +26,14 @@ jobs:
 
       # 3. Install dependencies using pnpm
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install --no-frozen-lockfile
 
       # 4. Build the site
       - name: build
         env:
           # This passes your repo name to your svelte.config.js
           # BASE_PATH: '/${{ github.event.repository.name }}'
-          # Custim Domain:
+          # Custom Domain:
           BASE_PATH: ''
         run: |
           pnpm build
