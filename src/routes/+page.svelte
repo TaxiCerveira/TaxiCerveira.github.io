@@ -99,7 +99,7 @@
         ],
         "priceRange": "€",
         "openingHours": "Mo-Su 00:00-23:59",
-        "image": hero
+        "image": `${page.url.origin}${hero}`
     };
 </script>
 
@@ -190,7 +190,7 @@
                 </div>
             </div>
         </div>
-        <div class="absolute bottom-0 left-0 right-0 h-24 bg-linear-to-t from-slate-50 to-transparent z-10"></div>
+        <div class="absolute bottom-0 left-0 right-0 h-24 bg-linear-to-t from-slate-50 to-transparent z-10 pointer-events-none"></div>
     </section>
 
     <!-- ABOUT SECTION -->
