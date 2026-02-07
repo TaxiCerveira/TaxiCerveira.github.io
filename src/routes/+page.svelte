@@ -117,14 +117,14 @@
     <meta property="og:url" content={page.url.href} />
     <meta property="og:title" content={m.meta_title()} />
     <meta property="og:description" content={m.meta_description()} />
-    <meta property="og:image" content="{page.url.origin}{hero}" />
+    <meta property="og:image" content="{hero}" />
     <meta property="og:site_name" content="Táxi Cerveira" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={m.meta_title()} />
     <meta name="twitter:description" content={m.meta_description()} />
-    <meta name="twitter:image" content="{page.url.origin}{hero}" />
+    <meta name="twitter:image" content="{hero}" />
     
     <!-- Theme Color -->
     <meta name="theme-color" content="#eab308" />
