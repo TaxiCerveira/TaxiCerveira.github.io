@@ -99,7 +99,7 @@
         ],
         "priceRange": "€",
         "openingHours": "Mo-Su 00:00-23:59",
-        "image": `${hero}}`
+        "image": `${page.url.origin}${hero}`
     };
 </script>
 
