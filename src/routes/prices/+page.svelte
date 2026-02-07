@@ -25,8 +25,8 @@
     // Dados das tarifas oficiais (Exemplo aproximado)
     const tariffs = [
         { item: m.prices_item_start(), t1: "3.25€", t2: "3.90€" },
-        { item: m.prices_item_km(), t1: "0.94€", t2: "1.13€" },
-        { item: m.prices_item_wait(), t1: "14.80€", t2: "14.80€" },
+        { item: m.prices_item_km(), t1: "1.06€", t2: "1.27€" },
+        { item: m.prices_item_wait(), t1: "16.50€", t2: "19.80€" },
     ];
 
     const supplements = [
@@ -48,7 +48,7 @@
         
         // Valores baseados nas tarifas (aproximados para simulação)
         const startFee = selectedTariff === '1' ? 3.25 : 3.90;
-        const kmPrice = selectedTariff === '1' ? 0.94 : 1.13;
+        const kmPrice = selectedTariff === '1' ? 1.06 : 1.27;
 
         const total = startFee + (distance * kmPrice);
         estimate = total.toFixed(2);
