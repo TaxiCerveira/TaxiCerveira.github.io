@@ -64,7 +64,7 @@
     <meta property="og:url" content={page.url.href} />
     <meta property="og:title" content={m.prices_page_title()} />
     <meta property="og:description" content={m.prices_page_desc()} />
-    <meta property="og:image" content="{page.url.origin}{logo}" />
+    <meta property="og:image" content="{logo}" />
     <meta property="og:site_name" content="Táxi Cerveira" />
 </svelte:head>
 

@@ -3,6 +3,7 @@
     import * as m from '$lib/paraglide/messages';
     import bgPattern from '$lib/assets/Background.webp';
     import carImg from '$lib/assets/Cars/car.webp';
+    import logo from '$lib/assets/logoCores.webp';
     
     // Services
     import transfer from '$lib/assets/services/transfer.png';
@@ -54,14 +55,14 @@
     <meta property="og:url" content={page.url.href} />
     <meta property="og:title" content={m.services_page_title()} />
     <meta property="og:description" content={m.services_page_desc()} />
-    <meta property="og:image" content="{page.url.origin}{carImg}" />
+    <meta property="og:image" content="{logo}" />
     <meta property="og:site_name" content="Táxi Cerveira" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={m.services_page_title()} />
     <meta name="twitter:description" content={m.services_page_desc()} />
-    <meta name="twitter:image" content="{page.url.origin}{carImg}" />
+    <meta name="twitter:image" content="{logo}" />
 </svelte:head>
 
 <div class="min-h-screen bg-slate-50 pt-32 pb-0 font-poppins relative">

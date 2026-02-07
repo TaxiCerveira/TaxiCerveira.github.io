@@ -73,14 +73,14 @@
 	<meta property="og:url" content={page.url.href} />
 	<meta property="og:title" content={m.contact_page_title()} />
 	<meta property="og:description" content={m.contact_page_desc()} />
-	<meta property="og:image" content="{page.url.origin}{bgPattern}" />
+	<!--meta property="og:image" content="{page.url.origin}{bgPattern}" /-->
 	<meta property="og:site_name" content="Táxi Cerveira" />
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content={m.contact_page_title()} />
 	<meta name="twitter:description" content={m.contact_page_desc()} />
-	<meta name="twitter:image" content="{page.url.origin}{bgPattern}" />
+	<!--meta name="twitter:image" content="{page.url.origin}{bgPattern}" /-->
 
 	<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 	<script src="https://www.google.com/recaptcha/api.js?render=6LfyW24rAAAAAKvUmrXl5ZvVpZYC7U4BN2tIpM2g"></script>
