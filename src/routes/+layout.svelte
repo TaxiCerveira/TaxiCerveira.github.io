@@ -10,7 +10,7 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
+	<link rel="icon" href="logoCores.webp" type="image/webp" >
     <!-- Canonical URL -->
     <link rel="canonical" href={page.url.href} />
     
