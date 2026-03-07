@@ -130,6 +130,16 @@
     <meta name="theme-color" content="#eab308" />
 </svelte:head>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17287083196"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17287083196');
+</script>
+
 <main class="font-poppins text-slate-600 bg-slate-50 selection:bg-emerald-200 selection:text-emerald-900 overflow-x-hidden">
     
     <!-- HERO SECTION -->
