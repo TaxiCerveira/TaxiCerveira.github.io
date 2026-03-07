@@ -3,14 +3,13 @@
 	import Navbar from '$lib/components/Navbar.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import { locales, localizeHref } from '$lib/paraglide/runtime';
-	import favicon from '$lib/assets/logoCoresIco.webp';
 	import './layout.css';
 
 	let { children } = $props();
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} type="image/webp" />
+	<link rel="icon" href="/logoCores.ico" sizes="any" />
     <!-- Canonical URL -->
     <link rel="canonical" href={page.url.href} />
     
