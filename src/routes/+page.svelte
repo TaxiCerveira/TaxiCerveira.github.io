@@ -5,8 +5,8 @@
     
     import bgPattern from '$lib/assets/Background.webp';
     import logo from '$lib/assets/logoCores.webp';
-    import sClass from '$lib/assets/Cars/CarroSClass.webp';
-    import vClass from '$lib/assets/Cars/CarrinhaVClass.webp';
+    //import sClass from '$lib/assets/Cars/CarroSClass.webp';
+    //import vClass from '$lib/assets/Cars/CarrinhaVClass.webp';
     import hero from '$lib/assets/Cars/Hero.webp';
     import heroMobile from '$lib/assets/Cars/HeroMobile.webp';
 
@@ -129,16 +129,6 @@
     <!-- Theme Color -->
     <meta name="theme-color" content="#eab308" />
 </svelte:head>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17287083196"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-17287083196');
-</script>
 
 <main class="font-poppins text-slate-600 bg-slate-50 selection:bg-emerald-200 selection:text-emerald-900 overflow-x-hidden">
     
