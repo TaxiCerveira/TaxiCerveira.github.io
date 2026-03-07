@@ -149,7 +149,7 @@
                 />
             </picture>
             <div class="absolute inset-0 bg-linear-to-r from-slate-950/95 via-slate-900/75 to-transparent"></div>
-            <img src={bgPattern} class="absolute inset-0 w-full h-full object-cover opacity-20 mix-blend-overlay" alt="" title="Background Pattern" width="1920" height="1080" loading="eager" />
+            <img src={bgPattern} class="absolute inset-0 w-full h-full object-cover opacity-0 mix-blend-overlay" alt="" title="Background Pattern" width="1920" height="1080" loading="eager" />
         </div>
 
         <div class="container relative z-10 mx-auto px-6 pt-20">
