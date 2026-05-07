@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { page } from '$app/state';
-	import { onMount } from 'svelte';
 	import * as m from '$lib/paraglide/messages';
 	import bgPattern from '$lib/assets/Background.webp';
 	import { CONTACTS } from '$lib/constants';
+	import emailjs from '@emailjs/browser';
     
     import phoneIcon from '$lib/assets/icons/phone.svg?raw';
     import whatsappIcon from '$lib/assets/icons/whatsapp.svg?raw';
@@ -17,12 +17,6 @@
 	let form = $state<HTMLFormElement>();
 	let isSubmitting = $state(false);
 	let submitStatus = $state<'idle' | 'success' | 'error'>('idle');
-
-	onMount(() => {
-		// Initialize EmailJS via CDN script
-		// @ts-ignore
-		if (window.emailjs) window.emailjs.init("5W8RHkDQIoA7-sfDv");
-	});
 
 	async function handleSubmit(event: SubmitEvent) {
 		event.preventDefault();
@@ -49,8 +43,7 @@
 			form.appendChild(input);
 
 			// Send with EmailJS
-			// @ts-ignore
-			await window.emailjs.sendForm('service_hwl5tpo', 'template_auov6d5', form);
+			await emailjs.sendForm('service_hwl5tpo', 'template_auov6d5', form, '5W8RHkDQIoA7-sfDv');
 			
 			submitStatus = 'success';
 			form.reset();
@@ -82,7 +75,6 @@
 	<meta name="twitter:description" content={m.contact_page_desc()} />
 	<!--meta name="twitter:image" content="{page.url.origin}{bgPattern}" /-->
 
-	<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 	<script src="https://www.google.com/recaptcha/api.js?render=6LfyW24rAAAAAKvUmrXl5ZvVpZYC7U4BN2tIpM2g"></script>
 </svelte:head>
 

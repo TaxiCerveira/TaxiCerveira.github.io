@@ -39,6 +39,7 @@
 		"vite": "^7.3.1"
 	},
 	"dependencies": {
+		"@emailjs/browser": "^4.4.1",
 		"embla-carousel": "^8.6.0",
 		"embla-carousel-svelte": "^8.6.0"
 	}
