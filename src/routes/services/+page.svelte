@@ -8,6 +8,7 @@
     // Services
     import transfer from '$lib/assets/services/transfer.png';
     import corporate from '$lib/assets/services/business.jpg';
+    import colorExemptTaxi from '$lib/assets/Cars/CarroSClass.webp';
     import pilgrims from '$lib/assets/services/santiago.jpg';
     import bike from '$lib/assets/services/bike.png';
     import tours from '$lib/assets/services/turism.png';
@@ -26,6 +27,7 @@
     const services = [
         { title: m.service_airport_title(), desc: m.service_airport_desc(), icon: "plane", image: transfer },
         { title: m.service_corporate_title(), desc: m.service_corporate_desc(), icon: "briefcase", image: corporate },
+        { title: m.service_color_exempt_title(), desc: m.service_color_exempt_desc(), icon: "shield", image: colorExemptTaxi },
         { title: m.service_pilgrims_title(), desc: m.service_pilgrims_desc(), icon: "map", image: pilgrims },
         { title: m.service_bikes_title(), desc: m.service_bikes_desc(), icon: "bike", image: bike },
         { title: m.service_tours_title(), desc: m.service_tours_desc(), icon: "camera", image: tours },

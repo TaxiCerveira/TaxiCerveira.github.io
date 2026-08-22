@@ -147,6 +147,8 @@
 	"service_airport_desc": "Transferts depuis et vers les aéroports (Porto, Vigo, Saint-Jacques-de-Compostelle, Lisbonne, Faro) avec ponctualité garantie. Oubliez les files d'attente et le stress, nous nous occupons de votre voyage avec tout le confort.",
 	"service_corporate_title": "Transport pour Entreprises",
 	"service_corporate_desc": "Solutions de mobilité pour les entreprises, transport de collaborateurs et partenaires commerciaux. Facturation mensuelle et gestion des services pour votre commodité.",
+	"service_color_exempt_title": "Taxi Exempt de Couleur",
+	"service_color_exempt_desc": "Service de transport exécutif et discret en véhicule noir (monochrome), exempt des couleurs traditionnelles du taxi. Idéal pour les déplacements VIP, les rendez-vous d'affaires et les clients privilégiant une confidentialité et une élégance absolues.",
 	"service_pilgrims_title": "Chemins de Saint-Jacques",
 	"service_pilgrims_desc": "Soutien aux pèlerins, transport de sacs à dos et récupération aux étapes du chemin. Nous connaissons les auberges et les points d'accès difficiles pour vous apporter la meilleure aide.",
 	"service_bikes_title": "Transport de Vélos",

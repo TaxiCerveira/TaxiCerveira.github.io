@@ -147,6 +147,8 @@
 	"service_airport_desc": "Transfers from and to airports (Porto, Vigo, Santiago de Compostela, Lisbon, Faro) with guaranteed punctuality. Forget queues and stress, we handle your trip with all comfort.",
 	"service_corporate_title": "Corporate Transport",
 	"service_corporate_desc": "Mobility solutions for companies, transport of employees and business partners. Monthly billing and service management for your convenience.",
+	"service_color_exempt_title": "Unbranded Taxi (Color-Exempt)",
+	"service_color_exempt_desc": "Discreet executive transport service in an all-black vehicle, exempt from traditional taxi color schemes. Ideal for VIP travel, corporate clients, and passengers who prioritize maximum privacy, elegance, and distinction.",
 	"service_pilgrims_title": "Camino de Santiago",
 	"service_pilgrims_desc": "Support for pilgrims, backpack transport, and pickup at stages of the path. We know the hostels and difficult access points to provide you with the best assistance.",
 	"service_bikes_title": "Bike Transport",

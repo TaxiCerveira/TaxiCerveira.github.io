@@ -147,6 +147,8 @@
 	"service_airport_desc": "Traslados desde y hacia aeropuertos (Oporto, Vigo, Santiago de Compostela, Lisboa, Faro) con puntualidad garantizada. Olvide las colas y el estrés, nosotros nos ocupamos de su viaje con todo el confort.",
 	"service_corporate_title": "Transporte para Empresas",
 	"service_corporate_desc": "Soluciones de movilidad para empresas, transporte de empleados y socios de negocios. Facturación mensual y gestión de servicios para su comodidad.",
+	"service_color_exempt_title": "Taxi Exento de Color",
+	"service_color_exempt_desc": "Servicio de transporte ejecutivo y discreto en vehículo monocromático (negro), exento de la caracterización tradicional de taxi. Ideal para traslados VIP, eventos de empresa y clientes que buscan la máxima privacidad, elegancia y sobriedad.",
 	"service_pilgrims_title": "Caminos de Santiago",
 	"service_pilgrims_desc": "Apoyo a peregrinos, transporte de mochilas y recogida en etapas del camino. Conocemos los albergues y los puntos de acceso difíciles para prestarle la mejor ayuda.",
 	"service_bikes_title": "Transporte de Bicicletas",
